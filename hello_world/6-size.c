@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: C program that outputs the size of types.
+ * main - C program that outputs the size of types
+ * Description: C program that outputs the size of types
  * retur: Always 0
  */
 
