@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: C program that outputs the size of types
- * return: Always 0 (Success)
+ * Return: Always 0(Success)
  */
 
 int main(void)
