@@ -2,8 +2,9 @@
 
 /**
  * main - prints a string followed by a new line
- * return: always 0
- **/
+ * Description: Simple code that prints out a string
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
