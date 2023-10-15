@@ -6,7 +6,7 @@
  * retur: Always 0
  */
 
-int main()
+int main(void)
 {
 	int intType;
 	float floatType;
