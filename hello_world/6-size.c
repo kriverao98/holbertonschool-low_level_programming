@@ -6,7 +6,7 @@
  * return: Always 0
  */
 
-intmain(void)
+int main(void)
 {
 	int intType;
 	float floatType;
