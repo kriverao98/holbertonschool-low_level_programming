@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always 0(Success)
  */
 
 int main(void)
@@ -10,10 +10,9 @@ int main(void)
 {
 	for (az = 'a'; az <= 'z'; az++)
 	{
-	if
-		(az != 'q' && az != 'e')
+		if (az != 'q' && az != 'e')
+			putchar(1);
 	}
-	putchar(az);
 	{
 		putchar('\n');
 	}
