@@ -3,7 +3,7 @@
  * main - Entry point
  * Description: A simple code that prints out the alphabet
  * in lowercase, followed by a newline.
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
