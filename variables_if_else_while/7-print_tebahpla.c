@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Simple program that outputs a reversed alphabet
+ * and ends with a newline.
  * Return - Always 0 (Success)
  */
 
