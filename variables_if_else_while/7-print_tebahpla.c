@@ -6,7 +6,7 @@
  * Description - Simple program that outputs a reversed alphabet
  * and ends with a newline.
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
