@@ -4,7 +4,7 @@
 /**
  * jack_bauer - print every minute of the day,
  * starting from 00:00 to 23:59
- * @c: the parameter to be checked
+ * @a,b,c,d: the parameter to be checked
  * Return: Void (Success)
  */
 
