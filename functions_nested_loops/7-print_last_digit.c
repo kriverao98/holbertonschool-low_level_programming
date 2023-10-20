@@ -7,9 +7,16 @@
  * Return: x (Success)
  */
 
-int print_last_digit(int c)
+int print_last_digit(int x)
 {
-	int x = c % 10;
+	x = x % 10;
+
+	if (x < 0)
+
+	{
+		x = x * -1;
+	}
+	_putchar(x + '0');
 
 	return (x);
 }
