@@ -3,7 +3,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @c: the parameter to be checked
+ * @x: the parameter to be checked
  * Return: x (Success)
  */
 
