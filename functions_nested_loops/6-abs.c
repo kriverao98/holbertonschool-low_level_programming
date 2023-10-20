@@ -4,6 +4,7 @@
 
 /**
  * _abs - this program computes the absolute value of an int
+ * @x: the parameter to be checked
  * Return: ALways 0 (Success)
  */
 
