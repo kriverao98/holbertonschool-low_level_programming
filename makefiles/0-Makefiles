@@ -1,0 +1,7 @@
+# building an executable named school
+
+all: school
+  gcc -g -Wall -o school school.c
+
+clean:
+  (rm) school
