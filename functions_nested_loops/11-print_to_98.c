@@ -6,26 +6,26 @@
  *Return: Always 0
  */
 
-void print_to_98(int c)
+void print_to_98(int n)
 
 {
-	if (c <= 98)
+	if (n <= 98)
 {
-	for (; c <= 98; c++)
+	for (; n <= 98; n++)
 	{
-		if (c == 98)
+		if (n == 98)
 		{
-			printf("%d ", c);
+			printf("%d ", n);
 			printf("\n");
 			break;
 		}
 		else
 		{
-			for (; c >= 98; c--)
+			for (; n >= 98; n--)
 			{
-				if (c == 98)
+				if (n == 98)
 				{
-					printf("%d", c);
+					printf("%d", n);
 
 					printf("\n");
 
@@ -34,7 +34,7 @@ void print_to_98(int c)
 
 				else
 				{
-					printf("%d, ", c);
+					printf("%d, ", n);
 				}
 			}
 		}
