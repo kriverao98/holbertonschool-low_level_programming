@@ -1,2 +1,2 @@
-all: school
-	gcc -g -Wall -o school school.c
+all: school.c
+	gcc main.c school.c -o school
