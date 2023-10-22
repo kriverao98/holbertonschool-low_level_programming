@@ -9,13 +9,13 @@
 
 int _isupper(int c)
 {
-	if (c >= 65)
+	if (c == 65)
 	{
 		return(1);
 	}
 
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
