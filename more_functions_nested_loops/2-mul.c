@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * int mul - Function that multiplies two ints.
- * @a, b - Variables to be multiplied.
+ * mul - Function that multiplies two ints.
+ * @a - Variable to be multiplied.
+ * @b - Variable to be multiplied.
  * Return: Void (Success)
  */
 
