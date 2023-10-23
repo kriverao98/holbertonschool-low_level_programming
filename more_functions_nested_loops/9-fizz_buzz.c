@@ -1,6 +1,7 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
+ * main - Prints Fizz - Buzz
  * @c: int to be checked
  * Return: 0 (Success)
  */
@@ -13,19 +14,23 @@ int main(void)
 	{
 		if ((c % 3 == 0) && (c % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (c % 3 == 0)
 		{
-			printf("Fixx ");
+			printf("Fixx");
 		}
 		else if (c % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", c);
+			printf("%d", c);
+		}
+		if (c != 100)
+		{
+			printf(" ");
 		}
 		printf("\n");
 
