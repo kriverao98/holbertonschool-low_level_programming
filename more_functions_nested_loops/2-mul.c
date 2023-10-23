@@ -2,8 +2,8 @@
 
 /**
  * mul - Function that multiplies two ints.
- * @a - Variable to be multiplied.
- * @b - Variable to be multiplied.
+ * @a: Variable to be multiplied.
+ * @b: Variable to be multiplied.
  * Return: Void (Success)
  */
 
