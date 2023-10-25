@@ -7,8 +7,13 @@ void print_array(int *a, int n)
 
 	while (a[x] < n)
 	{
-		printf("%d ,", a[x]);
+		printf("%d ", a[x]);
 		x++;
+
+	if (x != (n - 1))
+	{
+		printf(", ");
+	}
 	}
 
 	printf("\n");
