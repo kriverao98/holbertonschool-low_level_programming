@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * puts2 - This function prints out every other char.
+ * @str: Starting variable
+ * Return: Void
+ */
+
 void puts2(char *str)
 
 {
