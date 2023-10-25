@@ -2,8 +2,8 @@
 
 /**
  * rev_string - This function reverses a string
- * @len: Initialized variable
- * @i: Initialized variable
+ * @s: The string to be reversed
+ * Return: Void (Success)
  */
 
 void rev_string(char *s)
