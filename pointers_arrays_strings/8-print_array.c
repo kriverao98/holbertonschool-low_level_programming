@@ -3,7 +3,8 @@
 
 /**
  * print_array - This function prints n elements of an array of ints.
- * @a: Variable to be checked
+ * @a: Array
+ * @n: Number of elements of the array
  * Return: Void
  */
 
