@@ -2,22 +2,19 @@
 
 /**
  * _atoi - This function coverts a string to an int
- * @in: Index var
- * @x: Stores converted values
- * @b: Handles the char value
- * @c: Tracks num char
- * Return: in
+ * @sign: Index var
+ * @num: Unsigned int var
+ * Return: num * sign
  */
 
 int _atoi(char *s)
 
 {
-	int sign = 1; 
+	int sign = 1;
 
 	unsigned int num = 0;
 
-	do
-	{
+	do {
 		if (*s == '-')
 
 			sign *= -1;
