@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_array - This function prints n elements of an array of ints.
+ * @a: Variable to be checked
+ * Return: Void
+ */
+
 void print_array(int *a, int n)
 {
 	int x;
