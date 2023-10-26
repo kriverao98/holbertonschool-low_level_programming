@@ -2,9 +2,10 @@
 
 /**
  * _atoi - This function coverts a string to an int
+ * @s: Pointed char
  * @sign: Index var
  * @num: Unsigned int var
- * Return: num * sign
+ * Return:
  */
 
 int _atoi(char *s)
