@@ -3,9 +3,7 @@
 /**
  * _atoi - This function coverts a string to an int
  * @s: Pointed char
- * @sign: Index var
- * @num: Unsigned int var
- * Return:
+ * Return: num * sign (Success)
  */
 
 int _atoi(char *s)
