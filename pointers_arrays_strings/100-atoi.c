@@ -11,49 +11,42 @@
 
 int _atoi(char *s)
 {
+	int x = 0;
 
-	int i, d, n, len, f, digit;
+	unsigned int in = 0;
 
-	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
+	int c = 1;
 
-	while (s[len] != 10)
-		len++;
+	int i = 0;
 
-	while (i < len && f == 0)
+	while (s[x] == 45)
+
 	{
-
-		if (s[i] == '-')
-			++d;
-
-		if (s[i] >= '0' && s[i] <= '9')
+		if (s[x] == 45)
 
 		{
-			digit = s[i] - '0';
+			c *= -1;
 
-			if (d % 2)
-				digit = -digit;
-
-			n = n * 10 + digit;
-			f = 1;
-
-		if (s[i + 1] < '0' || s[i + 1])
-				break;
-
-				f = 0;
 		}
 
-		i++;
+		while (s[x] >= 48 && s[x] <= 57)
 
+		{
+			i = 1;
+
+			in = (in * 10) + (s[x] - '0');
+			x++;
+		}
+
+		if (i == 1)
+		{
+			break;
+		}
+
+		x++;
 	}
 
-	if (f == 0)
+	in *= c;
 
-		return (0);
-
-	return (n);
+	return (in);
 }
