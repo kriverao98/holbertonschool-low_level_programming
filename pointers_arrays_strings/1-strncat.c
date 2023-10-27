@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _strncat - concatenate two strings until n bytes
+ * @dest: starting string
+ * @src: concatenated string
+ * Return: dest (Success)
  */
 
 char *_strncat(char *dest, char *src, int n)
