@@ -4,6 +4,7 @@
  * _strncat - concatenate two strings until n bytes
  * @dest: starting string
  * @src: concatenated string
+ * @n: n bytes to reach
  * Return: dest (Success)
  */
 
