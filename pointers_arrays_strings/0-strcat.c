@@ -1,5 +1,5 @@
 #include "main.h"
-#include "2-strlen.c"
+
 /**
  * _strcat - write a function that concatenates two strings
  * @in: index variable
