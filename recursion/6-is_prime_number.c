@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prime_num: This function checks if num is divisible
+ * prime_num - This function checks if num is divisible
  * @x: num to be checked
  * @div: The divisor
  * Return: 1 if number is divisible, return 0 otherwise
@@ -15,11 +15,11 @@ int prime_num(int x, int div)
 	if (div == x / 2)
 		return (1);
 
-	return (prime_num(x, div +1));
+	return (prime_num(x, div + 1));
 }
 
 /**
- * is_prime_number: This function checks if num is prime or not
+ * is_prime_number - This function checks if num is prime or not
  * @n: number to be checked
  * Return: 1 if num is prime, return 0 otherwise
  */
