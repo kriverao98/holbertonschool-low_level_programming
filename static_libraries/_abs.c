@@ -1,23 +1,12 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * _abs - this program computes the absolute value of an int
- * @x: the parameter to be checked
- * Return: ALways 0 (Success)
+ * _abs - computes the absolute value of an integer
+ * @n: The integer to compute the absolute value of
+ *
+ * Return: The absolute value of n.
  */
-
-int _abs(int x)
+int _abs(int n)
 {
-	if (x < 0)
-	{
-		int abs;
-
-		abs = x * -1;
-
-		return (abs);
-	}
-
-	return (x);
+    return (n < 0 ? -n : n);
 }
