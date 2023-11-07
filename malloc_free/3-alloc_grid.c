@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 
 	for (; in < height; ++in)
 	{
-		grid[in] = (malloc(width * sizeof(int)));
+		grid[in] = (malloc(width * sizeof(grid)));
 
 		if (grid[in] == 0)
 		{
