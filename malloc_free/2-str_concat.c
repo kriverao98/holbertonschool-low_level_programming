@@ -13,17 +13,13 @@ char *str_concat(char *s1, char *s2)
 {
 	char *concat;
 
-	if (s1 == 0)
+	if ((s1 == 0) || (s2 == 0))
 	{
-		s1 = " ";
+		s1 = "";
+		s2 = "";
 	}
 
-	if (s2 == 0)
-	{
-		s2 = " ";
-	}
-
-	concat = malloc ((strlen(s1) + strlen(s2) + 1) * sizeof(char));
+	concat = malloc((strlen(s1) + strlen(s2) + 1) * sizeof(char));
 
 	if (concat == 0)
 	{
@@ -31,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	strcpy(concat, s1);
-	strcpy(concat, s2);
+	strcat(concat, s2);
 
 	return (concat);
 }
