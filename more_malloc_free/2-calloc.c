@@ -30,8 +30,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (0);
 	}
 
-	memset(in, 0, total * sizeof(int));
-
 	return (in);
 	free(in);
 
