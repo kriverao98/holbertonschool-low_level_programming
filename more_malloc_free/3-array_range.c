@@ -27,7 +27,7 @@ int *array_range(int min, int max)
 		return (0);
 	}
 
-	for (in = 0; in <= size; in++)
+	for (in = 0; in < size; in++)
 	{
 		total_val[in] = min++;
 	}
