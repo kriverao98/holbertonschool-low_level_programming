@@ -14,6 +14,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	void *in;
 	unsigned int total = 0;
 
+	for (; total < (size * nmemb); total++)
+
 	if ((nmemb == 0) || (size == 0))
 	{
 		return (0);
