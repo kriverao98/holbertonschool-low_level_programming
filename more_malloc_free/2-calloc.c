@@ -12,7 +12,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *in;
-	unsigned char total = 0;
+	unsigned int total = 0;
 
 	if ((nmemb == 0) || (size == 0))
 	{
@@ -29,5 +29,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	return (in);
+	free(in);
 
 }
