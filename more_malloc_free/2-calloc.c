@@ -12,22 +12,27 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *in;
-	unsigned int total = 0;
-
-	for (; total < (size * nmemb); total++)
+	unsigned int total = nmemb * size;
+	char *dex;
+	unsigned int i = 0;
 
 	if ((nmemb == 0) || (size == 0))
 	{
 		return (0);
 	}
 
-	 total = nmemb * size;
-
 	in = malloc(total * sizeof(int));
 
 	if (in == 0)
 	{
 		return (0);
+	}
+
+	dex = in;
+
+	for (; i < total; ++i)
+	{
+		dex[i] = 0;
 	}
 
 	return (in);
