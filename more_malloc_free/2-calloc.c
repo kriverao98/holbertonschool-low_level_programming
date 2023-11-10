@@ -18,14 +18,14 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if ((nmemb == 0) || (size == 0))
 	{
-		return (0);
+		return (NULL);
 	}
 
 	in = malloc(total);
 
-	if (in == 0)
+	if (in == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	dex = in;
