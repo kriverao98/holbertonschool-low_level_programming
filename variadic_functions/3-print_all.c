@@ -20,36 +20,39 @@ void print_all(const char * const format, ...)
 
 	while (format && format[i])
 	{
-		if (format[i] == 'c')
+		if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
 		{
-			c = (char)va_arg(args, int);
-			printf("%c", c);
+			if (format[i] == 'c')
+			{
+				c = (char)va_arg(args, int);
+				printf("%c", c);
+			}
+
+			if (format[i] == 'i')
+			{
+				num = va_arg(args, int);
+				printf("%d", num);
+			}
+
+			if (format[i] == 'f')
+			{
+				fnum = (float)va_arg(args, double);
+				printf("%f", fnum);
+			}
+
+			if (format[i] == 's')
+			{
+				str = va_arg(args, char *);
+				if (str == NULL)
+					printf("(nil)");
+
+				else
+					printf("%s", str);
+			}
+
+			if (format[i + 1] != '\0')
+					printf(", ");
 		}
-
-		if (format[i] == 'i')
-		{
-			num = va_arg(args, int);
-			printf("%d", num);
-		}
-
-		if (format[i] == 'f')
-		{
-			fnum = (float)va_arg(args, double);
-			printf("%f", fnum);
-		}
-
-		if (format[i] == 's')
-		{
-			str = va_arg(args, char *);
-			if (str == NULL)
-				printf("(nil)");
-
-			else
-				printf("%s", str);
-		}
-
-		if ((format[i + 1] != '\0') && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's'))
-			printf(", ");
 
 		i++;
 	}
