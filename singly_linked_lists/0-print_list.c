@@ -4,7 +4,7 @@
 
 /**
  * print_list - Print all elements of list_t list
- * @h: A pointere to the head of the list
+ * @h: A pointer to the head of the list
  * Return: node_count
  */
 
