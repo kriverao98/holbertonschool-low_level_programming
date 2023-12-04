@@ -15,12 +15,12 @@ void print_binary(unsigned long int n)
 	{
 		if (n & mask)
 		{
-			_putchar('1');
+			putchar('1');
 			flag = 1;
 		}
 		else if (flag)
 		{
-			_putchar('0');
+			putchar('0');
 		}
 
 		mask >>= 1;
