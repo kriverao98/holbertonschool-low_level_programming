@@ -12,13 +12,17 @@ void hash_table_delete(hash_table_t *ht)
 	hash_node_t *temp = NULL;
 
 	if (ht == NULL)
+	{
 		free(ht);
 		return;
+	}
+
 	if (ht->array == NULL)
 	{
 		free(ht);
 		return;
 	}
+
 	for (hash_number = 0; hash_number < ht->size; hash_number++)
 	{
 		object = ht->array[hash_number];
